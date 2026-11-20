@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){double globalRate=.18,localRate=.05,price=1000; std::cout<<"Local Rate: "<<localRate<<"\n"<<"Inner total: "<<price*1.12<<"\n"<<"Global total: "<<price*1.18<<"\n"<<"Local total: "<<price*1.05<<"\n";}

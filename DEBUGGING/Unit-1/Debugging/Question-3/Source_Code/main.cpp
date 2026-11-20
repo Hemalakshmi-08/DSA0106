@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){int token=2;float value=0;switch(token){case 1:{int offset=10;value=50+offset;break;}case 2:{int multiplier=5;value=20*multiplier;break;}case 3:value+=100;break;default:std::cout<<"Unknown token\n";}std::cout<<"Calculated Value: "<<value<<"\n";}

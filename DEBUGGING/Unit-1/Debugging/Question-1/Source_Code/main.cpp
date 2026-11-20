@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){ unsigned char n=15; if((n&1)==1 && n>10) std::cout<<"Valid Odd Number: "<<(int)n<<"\n"; else std::cout<<"Condition Failed for: "<<(int)n<<"\n"; for(int i=3;i>=0;--i)std::cout<<i<<' '; std::cout<<"\n";}

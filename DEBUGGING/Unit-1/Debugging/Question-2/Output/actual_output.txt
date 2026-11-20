@@ -1,0 +1,4 @@
+Local Rate: 0.05
+Inner total: 1120
+Global total: 1180
+Local total: 1050

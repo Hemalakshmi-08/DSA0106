@@ -1,0 +1,2 @@
+#include <iostream>
+int main(){int a=25;int& alias=a;int literal=100;int& refLiteral=literal;double pi=3.14159;int converted=(int)pi;int& refConverted=converted;const int& temp=50;std::cout<<a<<' '<<alias<<"\n"<<refLiteral<<' '<<refConverted<<' '<<temp<<"\n";}
