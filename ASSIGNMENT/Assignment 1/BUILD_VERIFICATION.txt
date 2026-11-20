@@ -1,0 +1,63 @@
+Assignment 1 BUILD VERIFICATION
+Compiler: g++ (Debian) 14.2.0
+Command flags: -std=c++17 -Wall -Wextra
+
+Task01 (Understand the Problem and Identify the Objects):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task01.cpp -o task01
+  Result: COMPILED AND RAN
+  Output: see Task01/Output.png
+
+Task02 (Tokens, Keywords, Identifiers and Constants):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task02.cpp -o task02
+  Result: COMPILED AND RAN
+  Output: see Task02/Output.png
+
+Task03 (Choose Data Types and Check Type Compatibility):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task03.cpp -o task03
+  Result: COMPILED AND RAN
+  Output: see Task03/Output.png
+
+Task04 (Control Implicit Conversions):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task04.cpp -o task04
+  Result: COMPILED AND RAN
+  Output: see Task04/Output.png
+
+Task05 (Expressions and Operator Precedence):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task05.cpp -o task05
+  Result: COMPILED AND RAN
+  Output: see Task05/Output.png
+
+Task06 (Design the Control Structures):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task06.cpp -o task06
+  Result: COMPILED AND RAN
+  Output: see Task06/Output.png
+
+Task07 (Procedural to Object-Oriented Design):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task07.cpp -o task07
+  Result: COMPILED AND RAN
+  Output: see Task07/Output.png
+
+Task08 (Read and Print Data Safely):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task08.cpp -o task08
+  Result: COMPILED AND RAN
+  Output: see Task08/Output.png
+
+Task09 (Implement and Test the Fare Logic):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task09.cpp -o task09
+  Result: COMPILED AND RAN
+  Output: see Task09/Output.png
+
+Task10 (Compare Expectations with Execution):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task10.cpp -o task10
+  Result: COMPILED AND RAN
+  Output: see Task10/Output.png
+
+Task11 (Recommend and Defend the Final Design):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task11.cpp -o task11
+  Result: COMPILED AND RAN
+  Output: see Task11/Output.png
+
+Task12 (Re-evaluate and Adapt the Design):
+  Compile command: g++ -std=c++17 -Wall -Wextra Task12.cpp -o task12
+  Result: COMPILED AND RAN
+  Output: see Task12/Output.png
