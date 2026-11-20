@@ -1,0 +1,3 @@
+Unit 2 Question 4 sample scenario:
+roster roll numbers 10,20,30.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

@@ -1,0 +1,4 @@
+Predicted output for the corrected source:
+10
+20
+30

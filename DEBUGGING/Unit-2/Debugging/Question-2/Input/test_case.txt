@@ -1,0 +1,3 @@
+Unit 2 Question 2 sample scenario:
+accounts balances 1250 and 750.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

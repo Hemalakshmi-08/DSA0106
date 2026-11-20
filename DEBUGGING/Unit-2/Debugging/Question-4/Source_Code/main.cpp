@@ -1,0 +1,2 @@
+#include <iostream>
+class Student{int roll;public:Student():roll(0){}Student(int r):roll(r){}void show()const{std::cout<<roll<<"\n";}};int main(){Student roster[3];roster[0]=Student(10);roster[1]=Student(20);roster[2]=Student(30);for(auto&s:roster)s.show();}

@@ -1,0 +1,2 @@
+Scaled maximum: 27
+Updated array: 4 20 12

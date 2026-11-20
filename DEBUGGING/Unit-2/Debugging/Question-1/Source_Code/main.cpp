@@ -1,0 +1,2 @@
+#include <iostream>
+int& arrayAt(int(&a)[3],int i){return a[i];} int maxScaled(int x,int y,int s){return (x>y?x:y)*s;} int main(){int a[3]={4,8,12};int result=maxScaled(7,9,3);arrayAt(a,1)=20;std::cout<<"Scaled maximum: "<<result<<"\nUpdated array: "<<a[0]<<' '<<a[1]<<' '<<a[2]<<"\n";}

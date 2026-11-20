@@ -1,0 +1,2 @@
+#include <iostream>
+class Account{static double reserves;int balance;public:Account(int b):balance(b){reserves+=b;}void show()const{std::cout<<"Balance: "<<balance<<"\n";}static void audit(){std::cout<<"Reserves: "<<reserves<<"\n";}};double Account::reserves=0;int main(){Account a(1250),b(750);a.show();b.show();Account::audit();}

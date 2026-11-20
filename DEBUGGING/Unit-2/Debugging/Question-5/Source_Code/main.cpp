@@ -1,0 +1,2 @@
+#include <iostream>
+class Auditor;class Engine{int rpm;friend void inspect(const Engine&,const Auditor&);public:Engine(int r):rpm(r){}};class Auditor{int limit;friend void inspect(const Engine&,const Auditor&);public:Auditor(int l):limit(l){}};void inspect(const Engine&e,const Auditor&a){std::cout<<"RPM="<<e.rpm<<" limit="<<a.limit<<"\n";}int main(){Engine e(2500);Auditor a(3000);inspect(e,a);}
