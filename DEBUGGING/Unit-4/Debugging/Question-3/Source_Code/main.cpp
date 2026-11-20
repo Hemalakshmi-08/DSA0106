@@ -1,0 +1,2 @@
+#include <iostream>
+struct Vehicle{virtual~Vehicle()=default;virtual void show()const{std::cout<<"Vehicle\n";}};struct Car:Vehicle{void turbo(){std::cout<<"Turbo on\n";}void show()const override{std::cout<<"Sports car\n";}};int main(){Vehicle*p=new Car;static_cast<Car*>(p)->turbo();p->show();Car c;Vehicle&r=c;r.show();delete p;}

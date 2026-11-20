@@ -1,0 +1,3 @@
+Unit 4 Question 1 sample scenario:
+Student id=101; Employee id=202; shared Person id=303.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

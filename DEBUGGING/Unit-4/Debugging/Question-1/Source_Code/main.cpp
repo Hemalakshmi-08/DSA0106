@@ -1,0 +1,2 @@
+#include <iostream>
+struct Person{int id;Person(int i=0):id(i){}};struct Student:virtual Person{Student(int i):Person(i){}};struct Employee:virtual Person{Employee(int i):Person(i){}};struct TA:Student,Employee{TA(int s,int e,int id):Person(id),Student(s),Employee(e){}};int main(){TA t(101,202,303);std::cout<<"Shared ID: "<<t.id<<"\n";}

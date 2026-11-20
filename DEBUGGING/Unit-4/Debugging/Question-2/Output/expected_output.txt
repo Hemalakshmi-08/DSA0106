@@ -1,0 +1,3 @@
+Predicted output for the corrected source:
+Device: AA:BB:CC:DD:EE:FF
+Rate: 50 Hz

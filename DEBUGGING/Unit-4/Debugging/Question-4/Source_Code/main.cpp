@@ -1,0 +1,2 @@
+#include <iostream>
+class Window{int w=0,h=0;public:Window&width(int n){w=n;return *this;}Window&height(int n){h=n;return *this;}void show()const{std::cout<<w<<" x "<<h<<"\n";}};int main(){Window().width(800).height(600).show();}

@@ -1,0 +1,3 @@
+Unit 4 Question 5 sample scenario:
+Secure channel opens, connects, then closes.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

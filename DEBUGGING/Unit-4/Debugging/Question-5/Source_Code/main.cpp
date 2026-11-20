@@ -1,0 +1,2 @@
+#include <iostream>
+class Socket{public:void open(){std::cout<<"Open\n";}void close(){std::cout<<"Close\n";}};class Secure:private Socket{public:using Socket::close;void connect(){open();std::cout<<"Secure connected\n";}};int main(){Secure s;s.connect();s.close();}
