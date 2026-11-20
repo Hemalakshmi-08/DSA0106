@@ -1,0 +1,3 @@
+Unit 5 Question 4 sample scenario:
+Video frame ID=1042; expected packet size=1200 bytes.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

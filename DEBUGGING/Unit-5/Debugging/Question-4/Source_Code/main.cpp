@@ -1,0 +1,2 @@
+#include <iostream>
+struct Packet{virtual~Packet()=default;virtual void encode()=0;virtual int size()const=0;};struct Video:Packet{int id;Video(int i):id(i){}void encode()override{std::cout<<"Encode frame "<<id<<"\n";}int size()const override{return 1200;}};int main(){Video v(1042);v.encode();std::cout<<v.size()<<" bytes\n";}

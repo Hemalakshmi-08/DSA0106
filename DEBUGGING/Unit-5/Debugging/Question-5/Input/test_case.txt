@@ -1,0 +1,3 @@
+Unit 5 Question 5 sample scenario:
+Dragon polymorphic encounter through Entity reference.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

@@ -1,0 +1,3 @@
+Unit 5 Question 1 sample scenario:
+Polygon vertices=4; render and delete through Shape pointer.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

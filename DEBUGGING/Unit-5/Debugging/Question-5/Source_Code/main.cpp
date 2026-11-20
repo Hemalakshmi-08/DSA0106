@@ -1,0 +1,2 @@
+#include <iostream>
+struct Entity{virtual~Entity()=default;virtual void attack()const{std::cout<<"Generic attack\n";}};struct Dragon:Entity{void attack()const override{std::cout<<"Dragon fire\n";}};void encounter(const Entity&e){e.attack();}int main(){Dragon d;encounter(d);}

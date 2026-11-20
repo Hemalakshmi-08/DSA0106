@@ -1,0 +1,3 @@
+Predicted output for the corrected source:
+Encode frame 1042
+1200 bytes

@@ -1,0 +1,6 @@
+Predicted output for the corrected source:
+Shape ctor
+Polygon heap allocated
+Polygon drawn
+Polygon resources freed
+Shape dtor

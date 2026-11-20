@@ -1,0 +1,2 @@
+#include <iostream>
+struct Shape{Shape(){std::cout<<"Shape ctor\n";}virtual~Shape(){std::cout<<"Shape dtor\n";}virtual void draw()const{std::cout<<"Shape\n";}};struct Polygon:Shape{int*p;Polygon():p(new int[4]){std::cout<<"Polygon heap allocated\n";}~Polygon(){delete[]p;std::cout<<"Polygon resources freed\n";}void draw()const override{std::cout<<"Polygon drawn\n";}};int main(){Shape*s=new Polygon;s->draw();delete s;}

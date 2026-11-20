@@ -1,0 +1,5 @@
+Shape ctor
+Polygon heap allocated
+Polygon drawn
+Polygon resources freed
+Shape dtor
