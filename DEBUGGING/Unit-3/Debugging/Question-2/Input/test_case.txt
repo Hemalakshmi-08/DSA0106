@@ -1,0 +1,3 @@
+Unit 3 Question 2 sample scenario:
+capacity=3; samples initialize as 0,10,20; deep copy passed to function.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

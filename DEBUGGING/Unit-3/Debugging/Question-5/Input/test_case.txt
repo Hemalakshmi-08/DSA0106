@@ -1,0 +1,3 @@
+Unit 3 Question 5 sample scenario:
+Vec a=(2,3), b=(4,5); add and compare.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

@@ -1,0 +1,2 @@
+#include <iostream>
+class Count{int n;public:Count(int x):n(x){}Count&operator++(){++n;return *this;}Count operator++(int){Count old=*this;++n;return old;}int get()const{return n;}};int main(){Count c(5);std::cout<<(++c).get()<<"\n";Count old=c++;std::cout<<old.get()<<" "<<c.get()<<"\n";}

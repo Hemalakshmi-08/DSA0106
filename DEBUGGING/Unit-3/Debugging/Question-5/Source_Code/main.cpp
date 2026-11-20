@@ -1,0 +1,2 @@
+#include <iostream>
+class Vec{int x,y;public:Vec(int a,int b):x(a),y(b){}Vec operator+(const Vec&o)const{return Vec(x+o.x,y+o.y);}bool operator==(const Vec&o)const{return x==o.x&&y==o.y;}int sum()const{return x+y;}};int main(){Vec a(2,3),b(4,5),c=a+b;std::cout<<(a==b)<<" "<<c.sum()<<"\n";}

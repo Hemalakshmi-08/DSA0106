@@ -1,0 +1,3 @@
+Unit 3 Question 1 sample scenario:
+string literal "OOP C++"; copy constructed.
+Note: This task demonstration uses these sample values in the source program; the input text is documentation, not stdin consumed by the program.

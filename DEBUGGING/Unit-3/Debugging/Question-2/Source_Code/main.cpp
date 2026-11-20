@@ -1,0 +1,2 @@
+#include <iostream>
+class Buffer{int*p;int n;public:Buffer(int c):p(new int[c]),n(c){for(int i=0;i<n;++i)p[i]=i*10;}Buffer(const Buffer&o):p(new int[o.n]),n(o.n){for(int i=0;i<n;++i)p[i]=o.p[i];}~Buffer(){delete[]p;}void print()const{for(int i=0;i<n;++i)std::cout<<p[i]<<' ';std::cout<<"\n";}};void pass(Buffer b){b.print();}int main(){Buffer b(3);pass(b);b.print();}

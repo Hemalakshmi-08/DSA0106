@@ -1,0 +1,2 @@
+#include <iostream>
+class Value{int v;public:Value(int n):v(n){}int get()const{return v;}};std::ostream&operator<<(std::ostream&o,const Value&v){return o<<"Value("<<v.get()<<")";}int main(){std::cout<<Value(42)<<"\n";}
